@@ -1,12 +1,43 @@
-# React + Vite
+# 📰 NewsMagazine
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, modern news web application built with **React**, **Vite**, **Bootstrap**, and powered by **NewsAPI**. NewsMagazine fetches and displays top headlines from various categories like business, sports, science, and technology in real-time.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔥 Live news fetched from [NewsAPI.org](https://newsapi.org/)
+- ⚡ Super fast with Vite
+- 📱 Fully responsive with Bootstrap 5
+- 🗂️ News categories: Business, Technology, Sports, Science
+- 🌙 Dark-themed card layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Screenshot
+
+![NewsMagazine Screenshot](public/customimage.jpeg)
+
+---
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Bootstrap 5](https://getbootstrap.com/)
+- [NewsAPI](https://newsapi.org/)
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/NewsMagazine.git
+cd NewsMagazine
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
